@@ -1,0 +1,1 @@
+let user = {"name": "iliakan", isAdmin: true};

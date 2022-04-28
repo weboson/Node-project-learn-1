@@ -1,0 +1,25 @@
+{
+  "name": "jsgame",
+  "version": "1.0.0",
+  "description": "practice javacsript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env PORT=2000 node ./process",
+    "dev": "node metanit параметрДляProcess.argv 36" 
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Rishat <rishat-word@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^14.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "cowsay": "^1.5.0"
+  }
+}
